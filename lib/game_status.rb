@@ -1,5 +1,6 @@
-WIN_COMBINATIONS = [ 
-  [0,1,2], #Top Row 
+
+WIN_COMBINATIONS = [
+  [0,1,2], #Top Row
   [3,4,5], #Middle Row
   [6,7,8],
   [0,3,6],
@@ -29,7 +30,8 @@ def won?(board)
       return win_combination
     end
 end
-else false 
+else
+  false 
 end
 
 
@@ -50,9 +52,3 @@ def winner(board)
     board[won?(board)[0]]
   end
 end
-  
-
-  
-  
-
-  
